@@ -33,7 +33,7 @@ int main(){
     DeleteArray(arr,size,index);
     size--;
     PrintArray(arr,size);
-    
+
 
     return 0;
 }
