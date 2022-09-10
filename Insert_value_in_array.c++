@@ -20,7 +20,6 @@ void insert(int array[], int size, int index, int value){
     array[index]=value;
 }
 
-
 int main(){
     int size;
     cout<<"Enter size of array ";
@@ -35,7 +34,5 @@ int main(){
     insert(arr,size,index,value);
     size++;
     PrintArray(arr,size);
-
-
     return 0;
 }
